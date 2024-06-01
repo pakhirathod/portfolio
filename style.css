@@ -1,16 +1,18 @@
 :root {
-  --mainColor: #338eda;
-  --secondaryColor: #fff;
-  --lightColor1: #5bc0de;
-  --lightColor2: #4abbdd;
-  --borderColor: #c1c1c1;
-  --mainText: #fff;
+  --mainColor: #EEEDEB;
+  --secondaryColor: #F5EFE7;
+  --lightColor1: #0b8fff;
+  --lightColor2: #7FC7D9;
+  --borderColor: #365486;
+  --mainText: #0A0908;
   --secondaryText: #338eda;
 }
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
 }
 body * {
   transition: 0.3s;
@@ -23,7 +25,7 @@ h5,
 h6,
 strong {
   color: var(--mainText);
-  font-family: "Segoe UI", monospace, sans-serif;
+  font-family: "Playfair Display", "Segoe UI", monospace, sans-serif;
   text-align: center;
 }
 h1 {
@@ -51,7 +53,7 @@ label,
 input,
 textarea {
   color: var(--mainText);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, monospace;
+  font-family: "Playfair Display", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, monospace;
 }
 
 a {
@@ -65,7 +67,7 @@ section:first-of-type {
 }
 p {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, monospace;
+  font-family: "Playfair Display", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, monospace;
 }
 .s1 {
   background: linear-gradient(
